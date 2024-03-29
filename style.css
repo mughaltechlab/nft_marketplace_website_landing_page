@@ -173,6 +173,10 @@ h1{
     width: 100%;
     margin: 0 auto;
 }
+.gridimg2{
+    position: relative;
+    left: -75px;
+}
 .header-body .btn, .trial .btn{
     font-size: 1.1em;
 }
@@ -483,7 +487,39 @@ h1{
     background-size: cover;
     padding: 6em 1em;
 }
-
-/* todo 28:20 */
+.trial p{
+    margin: 2em auto 3em auto;
+    max-width: 700px;
+}
+/* footer section */
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+footer li{
+    margin: 1em 0;
+}
+footer li a{
+    color: #ccc;
+}
+footer li a:hover{
+    text-decoration: underline;
+}
+footer input{
+    background: #1b2039;
+    border: none;
+    padding: 0.7em;
+    border-radius: 5px;
+}
+footer hr{
+    border: 1px #1b2039 solid;
+    margin: 1.5em 0;
+}
+footer p{
+    margin: 1em 0;
+}
 
 
